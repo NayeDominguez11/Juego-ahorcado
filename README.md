@@ -1,7 +1,7 @@
 # Juego-ahocado
 Juego ahorcado (Alura - Changelle-Oracle-One 02)
 
-Ver:
+Ver: 
 
 Aplicación Web que permite jugar el juego ahocado adivinando palabras.
 
