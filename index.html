@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego Ahorcado</title>
+  <link rel="icon" type="icon/png" href="imagenes/icon.ico">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="cabecera">
+    <img class="LogoImg" src="imagenes/logo.png" alt="Logo">
+  </header>
+  <main>
+    <div class="hombre-ahorcado">
+      <img id="hombre" alt="hombre-ahorcado">
+    </div>
+    <div class="adivinador-palabras">
+    </div>
+    <div class="errado-en-palabras">
+    </div>
+    <form class="botones" action="javascript">
+      <input type="button" class="btn-azul" value="Nuevo Juego" onclick="nuevoJuego()">
+      <input type="button" id="bton-desis" value="Desistir">
+    </form>
+  </main>
+  <footer class="pie-pagina">
+    ©2022 | Nayely Dominguez. Todos los derechos reservados.
+  </footer>
+  <script src="./app.js" defer></script>
+</body>
+</html>
